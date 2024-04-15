@@ -1,0 +1,108 @@
+* {
+  text-decoration: none !important;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.body {
+  height: 200%;
+  margin: 0 auto;
+}
+
+nav {
+  z-index: 1;
+  margin-top: -10px;
+  position: fixed;
+  padding: 15px;
+  width: 100%;
+  height: 80px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+nav .menulogo {
+  color: rgb(150, 150, 150);
+  font-size: 30px;
+  align-items: center;
+  margin-left: 27.7em;
+  margin-right: 23.9em;
+  transition: 0.5s;
+}
+nav .menulogo:hover {
+  color: white;
+}
+
+.inputForm {
+  padding: 70px;
+  border: 1px solid;
+  margin: 100px auto;
+  border-radius: 10px;
+  width: 600px;
+  height: 100%;
+}
+.inputForm #inputs {
+  margin-bottom: 20px;
+  background-color: ghostwhite;
+}
+.inputForm #inputs:focus {
+  width: 1000px;
+  border: 1px solid black;
+}
+.inputForm button {
+  padding: 20px 40px;
+  margin: 5px auto;
+  margin-left: 20.3em;
+}
+
+.showmenu {
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 82px;
+  font-size: 30px;
+  top: 10px;
+  position: absolute;
+  width: 95px;
+  height: 230px;
+  transition: 1s;
+  display: none;
+  background-color: rgb(64, 102, 102);
+}
+.showmenu a {
+  color: white;
+  margin-left: 15px;
+}
+
+.whatsapp {
+  transition: 0.3s;
+}
+.whatsapp:hover {
+  color: rgb(0, 255, 0);
+}
+
+.instagram {
+  transition: 0.3s;
+}
+.instagram:hover {
+  color: rgb(255, 0, 179);
+}
+
+.facebook {
+  transition: 0.3s;
+}
+.facebook:hover {
+  color: #00c6ff;
+}
+
+.twitter {
+  transition: 0.3s;
+}
+.twitter:hover {
+  color: gray;
+}
+
+.tiktok {
+  transition: 0.3s;
+}
+.tiktok:hover {
+  color: rgb(111, 0, 255);
+}/*# sourceMappingURL=login.css.map */
